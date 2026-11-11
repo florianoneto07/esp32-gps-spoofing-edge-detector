@@ -1,0 +1,15 @@
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Resultados gerados (recriados por scripts/evaluate.py, pela estação de solo e pela demo)
+results/*.csv
+results/*.png
+results/*.log
+
+# Arquivos locais de ferramentas e segredos
+.c[l]aude/
+C[L]AUDE.md
+.env
